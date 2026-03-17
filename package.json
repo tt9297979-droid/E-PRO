@@ -1,35 +1,15 @@
-body {
-  margin: 0;
-  background: #0b0f1a;
-  color: white;
-  font-family: sans-serif;
-}
-
-.container {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-}
-
-.card {
-  background: #111827;
-  padding: 20px;
-  border-radius: 15px;
-  margin-bottom: 20px;
-}
-
-button {
-  width: 100%;
-  padding: 12px;
-  background: #00c853;
-  border: none;
-  color: white;
-  border-radius: 10px;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 10px;
+{
+  "name": "ai-hedge-terminal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
